@@ -1,6 +1,7 @@
 
 import {Button} from '../../components/Button/Button';
 import Textarea from '../../components/Textarea/Textarea';
+import Link from '../../components/Link/Link';
 import './App.css';
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
         </a>
         <Button name='Alex' age='28'/>
         <Button name='Yehor' age='30'/>
+        <Link link = "www.gmail.com"/>
+        <Link link = "www.gmail.com"/>
         <Textarea/>
       </header>
     </div>
